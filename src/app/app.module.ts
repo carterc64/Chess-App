@@ -2,14 +2,15 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { FooterComponent } from './Navigation/footer/footer.component';
 import { SidebarCompnent } from './Navigation/sidebar/sidebar.component';
-import { TopNavBarComponent } from './Navigation/topnavbar.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopNavBarComponent,
-    SidebarCompnent
+    SidebarCompnent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

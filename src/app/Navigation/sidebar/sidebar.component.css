@@ -1,7 +1,14 @@
+
+/* Fixes sidebar position for scrolling once more content is added */
 div.d-flex.flex-column.flex-shrink-0.p-2.text-white{
     background: rgb(39,37,34);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: fixed;
 }
 
+/* Coloring for buttons and icons */
 a.nav-link.Puzzles{
     fill: rgb(244,129,69);
     
@@ -28,7 +35,7 @@ input.form-control.me-2.mt-2:hover{
 }
 
 input.form-control.me-2.mt-2:focus{
-    outline-color: rgb(152,150,149);
+    box-shadow: none;
 
 }
 
@@ -51,6 +58,8 @@ a{
     font-weight: bold;
     font-size: 14px;
     color: rgb(152,150,149)
+    
+    
 }
 
 a:hover{

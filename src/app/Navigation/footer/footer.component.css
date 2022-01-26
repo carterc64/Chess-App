@@ -1,0 +1,46 @@
+
+/* Formatting word footer links */
+li.nav-item{
+    font-family:  Arial, Verdana, sans-serif;
+    font-size: 12px;
+    color: rgb(152,150,149);
+    font-weight: bold;
+}
+
+/* Formatting hover capabilites for social media links */
+svg.apple:hover{
+    fill: white;
+}
+
+svg.android:hover{
+    fill: lightgreen;
+}
+
+svg.facebook:hover{
+    fill: royalblue;
+}
+
+svg.twitter:hover{
+    fill: rgb(29,161,242);
+}
+
+svg.android:hover{
+    fill: lightgreen;
+}
+
+svg.youtube:hover{
+    fill: red;
+}
+
+svg.twitch:hover{
+    fill: #8c45f7;
+}
+
+svg.instagram:hover{
+    fill: rgb(188,42,141);
+}
+
+svg.discord:hover{
+    fill: #6e85d3;
+}
+
