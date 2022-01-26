@@ -1,12 +1,11 @@
 import { Component } from "@angular/core";
 
-
 @Component({
-     selector: 'ca-topnavbar',
+     selector: 'fm-topnavbar',
      templateUrl: 'topnavbar.component.html',
-     styleUrls: ['topnavbar.component.css']   
-})
+     styleUrls: ['topnavbar.component.css']
 
-export class TopNavBarComponent {
-    
+})
+export class TopNavBarComponent{
+
 }

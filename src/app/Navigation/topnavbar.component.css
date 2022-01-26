@@ -1,0 +1,13 @@
+p{
+    text-align: center;
+    color: red;
+    background-color: blue;
+  }
+
+.important{
+    color: green;
+}
+
+div.important{
+    background-color: crimson;
+}

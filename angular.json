@@ -24,7 +24,12 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "bootstrap-icons.svg",
+                "input": "./node_modules/bootstrap-icons/",
+                "output": "/assets/"
+              }
             ],
             "styles": [
               "src/styles.css",
@@ -94,20 +99,14 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              {
-                "glob": "bootstrap-icons.svg",
-                "input": "./node_modules/bootstrap-icons/",
-                "output": "/assets/"
-              }
-
+              "src/assets"
             ],
             "styles": [
               "src/styles.css",
-              "./node_modules/bootstrap/dist/css/bootsrtap.css"
+              "./node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": [
-              "./node_modules/bootstrap/dist/js/bootsrtap.bundle.js"
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.js"
             ]
           }
         }
