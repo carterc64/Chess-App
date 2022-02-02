@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { VerticalCardComponent } from './MainPage/vertical.card.component';
 import { FooterComponent } from './Navigation/footer/footer.component';
 import { SidebarCompnent } from './Navigation/sidebar/sidebar.component';
 
@@ -10,7 +11,8 @@ import { SidebarCompnent } from './Navigation/sidebar/sidebar.component';
   declarations: [
     AppComponent,
     SidebarCompnent,
-    FooterComponent
+    FooterComponent,
+    VerticalCardComponent
   ],
   imports: [
     BrowserModule
