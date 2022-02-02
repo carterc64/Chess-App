@@ -1,0 +1,76 @@
+
+div.card.mb-3{
+    left: 400px;
+    background-color: rgb(39,37,34);
+    color: white;
+    max-width: 1000px;
+    max-height: 1500px;
+    padding-top: 22px;
+    border: none;
+}
+
+div.card-board{
+   padding-top: 19px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    width: 450px;
+    align-items: left;
+   
+}
+
+h4{
+    font-family:  Arial, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+
+    align-items: center;
+   
+}
+
+h4.part1{
+    padding-left: 125px;
+    padding-top: 40px;
+    padding-right: 90px;
+}
+
+button.btn.btn-primary.btn-lg{
+    background: rgb(127,166,80);
+}
+
+button.btn.btn-primary.btn-lg{
+    background-color: rgbrgb(127,166,80);
+    font-family:  Arial, Verdana, sans-serif;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    left: 625px;
+    top: 150px;
+    
+}
+
+button.btn.btn-primary.btn-lg:hover{
+    box-shadow: 0 5px 15px rgb(130, 184, 65);
+}
+
+div.anna-img{
+    padding-top: 167px;
+    padding-left: 70px;
+}
+
+p{
+    font-family:  Arial, Verdana, sans-serif;
+    
+}
+
+p.card2-text{
+    position: absolute;
+    left: 675px;
+    top: 300px;
+    max-width: 300px;
+    color: rgb(152,150,149);
+    
+}
+
+.line{
+    line-height: 50px;
+}

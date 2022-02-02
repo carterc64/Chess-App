@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { VerticalCardComponent } from './MainPage/vertical.card.component';
+import { VerticalCardComponent2 } from './MainPage/vertical.card.component2';
+import { VerticalCardComponent3 } from './MainPage/vertical.card.component3';
 import { FooterComponent } from './Navigation/footer/footer.component';
 import { SidebarCompnent } from './Navigation/sidebar/sidebar.component';
 
@@ -12,7 +14,9 @@ import { SidebarCompnent } from './Navigation/sidebar/sidebar.component';
     AppComponent,
     SidebarCompnent,
     FooterComponent,
-    VerticalCardComponent
+    VerticalCardComponent,
+    VerticalCardComponent2,
+    VerticalCardComponent3
   ],
   imports: [
     BrowserModule
