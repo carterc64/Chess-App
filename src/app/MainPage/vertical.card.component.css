@@ -1,19 +1,21 @@
 /*Entire Card*/
 div.card.mb-3{
-    left: 400px;
+    left: 300px;
     background-color:#312e2b;
     color: white;
-    max-width: 1500px;
+    max-width: 1000px;
     max-height: 1500px;
     padding-top: 22px;
     padding-bottom: 50px;
+    
     border: none;
 }
 
 /*Chess Board Img*/
-div.col-md-3{
-    width: 750px;
-    height: 750px;
+div.card1-img{
+    height: 500px;
+    width: 500px;
+    
 }
 
 /*All Paragraph Text*/
@@ -33,23 +35,23 @@ h4{
 }
 /*Play Chess*/
 h4.part1{
-    padding-left: 140px;
+    padding-left: 280px;
     padding-top: 20px;
 }
 /*for Free*/
 h4.part2{
-    padding-left: 180px;
+    padding-left: 320px;
 }
 /*on the #1 Site*/
 h4.part3{
-    padding-left: 105px;
+    padding-left: 245px;
     padding-bottom: 20px;
 }
 
 /*Statistcs Text*/
 p.card-text{
     align-items: center;
-    padding-left: 80px;
+    padding-left: 220px;
 }
 .inner{
     font-family:  Arial, Verdana, sans-serif;
@@ -60,7 +62,7 @@ p.card-text{
 button.btn.btn-primary.btn-lg{
     align-items: center;
     position: absolute;
-    left: 610px;
+    left: 590px;
     top: 300px;
     background: rgb(127,166,80);
     border: none;
@@ -98,7 +100,7 @@ p.button-inner{
 button.btn2.btn-primary.btn-lg{
     align-items: center;
     position: absolute;
-    left: 610px;
+    left: 590px;
     top: 420px;
     border: none;
     width: 385px;
