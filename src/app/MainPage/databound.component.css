@@ -1,0 +1,30 @@
+div.card{
+    width: 475px;
+    left: 300px;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 50px;
+    text-align: center;
+    background-color: #312e2b;
+    color: white;
+    border: none;
+    
+    
+    
+
+}
+
+p{
+    line-height: 10px;
+    font-family:  Arial, Verdana, sans-serif;
+}
+
+p.card-text{
+    padding-top: 20px;
+}
+
+p.card-text2{
+    color: rgb(152,150,149);
+    font-size: 13.5px;
+    font-weight: bold;
+}
