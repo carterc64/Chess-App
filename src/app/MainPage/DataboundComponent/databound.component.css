@@ -1,28 +1,27 @@
+/*Spacing and style for card as a whole*/
 div.card{
     width: 475px;
     left: 500px;
-    
     font-weight: bold;
     margin-right: 50px;
     text-align: center;
     background-color: #312e2b;
     color: white;
     border: none;
-    
-    
-    
-
 }
 
+/*font for all text*/
 p{
    
     font-family:  Arial, Verdana, sans-serif;
 }
 
+/*Text space from picture*/
 p.body-text{
     padding-top: 20px;
 }
 
+/*Name text color and size diffrence*/
 p.name-text{
     
     color: rgb(152,150,149);
