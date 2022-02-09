@@ -9,18 +9,34 @@
         <chess-vertical-card3>Loading Card</chess-vertical-card3>
     </div>
    
-    <p>Follow what's happening in Chess Today!</p>
+    <div class = "spacing">
+        <p>Follow what's happening in Chess Today!</p>
+    </div>
+    
 
-       
-        <databound-card >Loading </databound-card>
-        <databound-card>Loading </databound-card>
 
-        <div class = "line">
+        <div class="news-section">
+
+            <div class ="news-cards" *ngFor=" let product of products">
+
+                <databound-card img = {{product.img}} bodyText = {{product.bodyText}} 
+                nameText = {{product.nameText}} navLink = {{product.navLink}}>Loading </databound-card>
+                
+            </div>
+
+            <div class = "line">
+            </div>
+
+            <div class ="news-cards" *ngFor=" let product2 of products2">
+
+                <databound-card img = {{product2.img}} bodyText = {{product2.bodyText}} 
+                nameText = {{product2.nameText}} navLink = {{product2.navLink}}>Loading </databound-card>
+                
+            </div>
+           
+           
         </div>
 
-        <databound-card>Loading </databound-card>
-        <databound-card>Loading </databound-card>
-        
     <chess-footer>Loading footer</chess-footer>
     
     White Space elminator

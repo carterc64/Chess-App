@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { DataboundCardComponent } from './MainPage/databound.component';
+import { DataboundCardComponent } from './MainPage/DataboundComponent/databound.component';
 import { VerticalCardComponent } from './MainPage/vertical.card.component';
 import { VerticalCardComponent2 } from './MainPage/vertical.card.component2';
 import { VerticalCardComponent3 } from './MainPage/vertical.card.component3';
