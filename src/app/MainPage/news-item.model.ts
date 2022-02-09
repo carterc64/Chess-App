@@ -1,4 +1,4 @@
-export class ProductItemModel {
+export class NewsItemModel {
 
     img: string;
     bodyText: string;

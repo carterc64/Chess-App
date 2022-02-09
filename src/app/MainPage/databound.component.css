@@ -1,6 +1,6 @@
 div.card{
     width: 475px;
-    left: 500px;
+    left: 300px;
     display: inline-block;
     font-weight: bold;
     margin-right: 50px;
@@ -19,11 +19,11 @@ p{
     font-family:  Arial, Verdana, sans-serif;
 }
 
-p.card-text{
+p.body-text{
     padding-top: 20px;
 }
 
-p.card-text2{
+p.name-text{
     color: rgb(152,150,149);
     font-size: 13.5px;
     font-weight: bold;

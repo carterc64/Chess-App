@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { mock_product_list } from './MainPage/mock-product-list';
-import { ProductItemModel } from './MainPage/product-item.model';
+import { mock_news_list } from './MainPage/mock-news-list';
+import { NewsItemModel } from './MainPage/news-item.model';
 
 @Component({
   selector: 'app-root',
@@ -9,10 +9,10 @@ import { ProductItemModel } from './MainPage/product-item.model';
 })
 export class AppComponent {
   title = 'Chess-App';
-  products: ProductItemModel [] = [];
+  products: NewsItemModel [] = [];
 
   constructor(){
-    for (var product of mock_product_list){
+    for (var product of mock_news_list){
       console.log(product);
       this.products.push(product);
     }

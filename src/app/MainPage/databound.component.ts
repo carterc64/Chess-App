@@ -5,6 +5,7 @@ import { Component, Input } from "@angular/core";
     templateUrl: 'databound.component.html',
     styleUrls: ['databound.component.css']
 })
+
 export class DataboundCardComponent{
     @Input() img: string;
     @Input() bodyText: string;
