@@ -4,14 +4,15 @@ body.main-page{
 }
 
 div.sidebar{
-  gap: 20;
+
+  flex: .15;
    
 }
 
 div.box{
     background-color:#312e2b;
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     order: 2;
 }
