@@ -6,6 +6,9 @@ div.d-flex.flex-column.flex-shrink-0.p-2.text-white{
     top: 0;
     left: 0;
     position: fixed;
+    height: 100%;
+
+    
 }
 
 /* Coloring for buttons and icons */
@@ -74,4 +77,10 @@ a{
 a:hover{
     color: white;
     background-color: rgb(30,30,30);
+}
+
+div.bottom{
+ position: absolute;
+  bottom: 0;
+  left: 0;
 }

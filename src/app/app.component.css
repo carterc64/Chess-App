@@ -3,7 +3,18 @@ body.main-page{
     
 }
 
+div.sidebar{
+  gap: 20;
+   
+}
 
+div.box{
+    background-color:#312e2b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 2;
+}
 
 p{
     font-family:  Arial, Verdana, sans-serif;

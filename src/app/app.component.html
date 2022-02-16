@@ -1,48 +1,53 @@
-<chess-sidebar>Loading sidebar</chess-sidebar>
+
+<div class= "sidebar">
+    <chess-sidebar>Loading sidebar</chess-sidebar>
+</div>
+
+<div class="box">
+
+    <body class="main-page">
+
+        <!--Three main starting cards-->
+        <div>
+            <chess-vertical-card>Loading card</chess-vertical-card>
+            <chess-vertical-card2>Loading Card</chess-vertical-card2>
+            <chess-vertical-card3>Loading Card</chess-vertical-card3>
+        </div>
+
+        <!--Header of news Section-->
+        <div class="spacing">
+            <p>Follow what's happening in Chess Today!</p>
+        </div>
 
 
-<body class="main-page">
+        <!--Four news cards-->
+        <div class="news-section">
 
-    <!--Three main starting cards-->
-    <div>
-        <chess-vertical-card>Loading card</chess-vertical-card>
-        <chess-vertical-card2>Loading Card</chess-vertical-card2>
-        <chess-vertical-card3>Loading Card</chess-vertical-card3>
-    </div>
+            <div class="news-cards" *ngFor=" let product of products">
 
-    <!--Header of news Section-->
-    <div class="spacing">
-        <p>Follow what's happening in Chess Today!</p>
-    </div>
+                <databound-card img={{product.img}} bodyText={{product.bodyText}} nameText={{product.nameText}}
+                    navLink={{product.navLink}}>Loading </databound-card>
 
+            </div>
 
-    <!--Four news cards-->
-    <div class="news-section">
+            <!--line divder of the two cards to get them on seperate lines-->
+            <div class="line">
+            </div>
 
-        <div class="news-cards" *ngFor=" let product of products">
+            <div class="news-cards" *ngFor=" let product2 of products2">
 
-            <databound-card img={{product.img}} bodyText={{product.bodyText}} nameText={{product.nameText}}
-                navLink={{product.navLink}}>Loading </databound-card>
+                <databound-card img={{product2.img}} bodyText={{product2.bodyText}} nameText={{product2.nameText}}
+                    navLink={{product2.navLink}}>Loading </databound-card>
+
+            </div>
 
         </div>
 
-        <!--line divder of the two cards to get them on seperate lines-->
-        <div class="line">
-        </div>
-
-        <div class="news-cards" *ngFor=" let product2 of products2">
-
-            <databound-card img={{product2.img}} bodyText={{product2.bodyText}} nameText={{product2.nameText}}
-                navLink={{product2.navLink}}>Loading </databound-card>
-
-        </div>
-
-    </div>
 
 
-
-    <!--Footer-->
-    <chess-footer>Loading footer</chess-footer>
-    <!--Gets rid of line of white space-->
-    White Space elminator
-</body>
+        <!--Footer-->
+        <chess-footer>Loading footer</chess-footer>
+        <!--Gets rid of line of white space-->
+        White Space elminator
+    </body>
+</div>

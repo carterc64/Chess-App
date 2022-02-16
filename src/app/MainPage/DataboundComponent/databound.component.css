@@ -1,7 +1,7 @@
 /*Spacing and style for card as a whole*/
 div.card{
     width: 475px;
-    left: 500px;
+    
     font-weight: bold;
     margin-right: 50px;
     text-align: center;
