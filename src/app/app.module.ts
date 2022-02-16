@@ -8,6 +8,9 @@ import { VerticalCardComponent2 } from './MainPage/vertical.card.component2';
 import { VerticalCardComponent3 } from './MainPage/vertical.card.component3';
 import { FooterComponent } from './Navigation/footer/footer.component';
 import { SidebarCompnent } from './Navigation/sidebar/sidebar.component';
+import { AppRoutingModule } from './app-routing.module';
+import { PlayLayoutComponent } from './OtherPages/play-layout.component';
+import { HomeLayoutComponent } from './MainPage/home-layout.component';
 
 
 @NgModule({
@@ -18,10 +21,13 @@ import { SidebarCompnent } from './Navigation/sidebar/sidebar.component';
     VerticalCardComponent,
     VerticalCardComponent2,
     VerticalCardComponent3,
-    DataboundCardComponent
+    DataboundCardComponent,
+    PlayLayoutComponent,
+    HomeLayoutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

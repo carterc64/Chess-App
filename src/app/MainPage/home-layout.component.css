@@ -1,12 +1,10 @@
-
-
-
-
-div.box{
+body.main-page{
     background-color:#312e2b;
     
-    
 }
+
+
+
 
 p{
     font-family:  Arial, Verdana, sans-serif;
@@ -19,12 +17,11 @@ p{
     
 }
 
-div.layout{
+div.line{
+    display:block;
+}
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding-left: 9%;
+div.news-cards{
+    display: inline-block;
 }
 
