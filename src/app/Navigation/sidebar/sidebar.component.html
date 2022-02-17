@@ -1,7 +1,7 @@
 <div class="d-flex flex-column flex-shrink-0 p-2 text-white" >
 
     <!-- Top logo -->
-    <a href="/" class="d-flex align-items-center mb-2  text-white text-decoration-none">
+    <a routerLink="home" class="d-flex align-items-center mb-2  text-white text-decoration-none">
         <img src="./assets/chess-main-logo3.png" width="110px">
     </a>
 
@@ -11,8 +11,8 @@
 
 
 
-        <li class="nav-item  dropend">
-            <a href="#" class="nav-link Active" aria-current="page" data-bs-toggle="dropdown" aria-expanded="false" role="button">
+        <li class="nav-item  dropend" >
+            <a class="nav-link Play" routerLink="play" aria-current="page" data-bs-toggle="dropdown" aria-expanded="false" role="button">
                 <svg class="bi me-2 " width="30" height="30" fill="white">
                     <use xlink:href="./assets/bootstrap-icons.svg#joystick"></use>
                 </svg>
@@ -30,7 +30,7 @@
 
         </li>
         <li>
-            <a href="#" class="nav-link Puzzles">
+            <a routerLink="puzzles" class="nav-link Puzzles">
                 <svg class="bi me-2" width="30" height="30">
                     <use xlink:href="./assets/bootstrap-icons.svg#puzzle-fill"></use>
                 </svg>
@@ -50,7 +50,7 @@
 
         
         <li>
-            <a href="#" class="nav-link Learn">
+            <a routerLink="lessons"class="nav-link Learn">
                 <svg class="bi me-2" width="30" height="30">
                     <use xlink:href="./assets/bootstrap-icons.svg#mortarboard-fill"></use>
                 </svg>
@@ -134,8 +134,8 @@
         </form>
 
         <!-- Sign up an log in buttons -->
-        <button type="button" class="btn btn-secondary mt-3 me-2">Sign Up</button>
-        <button type="button" class="btn btn-success mt-2 me-2">Log In</button>
+        <button type="button" class="btn btn-secondary mt-3 me-2" routerLink="register">Sign Up</button>
+        <button type="button" class="btn btn-success mt-2 me-2" routerLink="login"> Log In</button>
 
     </ul>
 

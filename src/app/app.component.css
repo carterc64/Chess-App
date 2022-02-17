@@ -5,7 +5,6 @@
 div.box{
     background-color:#312e2b;
     
-    
 }
 
 p{
@@ -28,3 +27,8 @@ div.layout{
     padding-left: 9%;
 }
 
+div.footer{
+    padding-left: 9%;
+    display: flex;
+    justify-content: center;
+}

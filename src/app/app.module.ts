@@ -11,6 +11,9 @@ import { SidebarCompnent } from './Navigation/sidebar/sidebar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PlayLayoutComponent } from './OtherPages/play-layout.component';
 import { HomeLayoutComponent } from './MainPage/home-layout.component';
+import { PuzzlesLayoutComponent } from './OtherPages/puzzles-layout.component';
+import { RegisterLayoutComponent } from './OtherPages/register-layout.component';
+import { LessonsLayoutComponent } from './OtherPages/lessons-layout.component';
 
 
 @NgModule({
@@ -23,7 +26,10 @@ import { HomeLayoutComponent } from './MainPage/home-layout.component';
     VerticalCardComponent3,
     DataboundCardComponent,
     PlayLayoutComponent,
-    HomeLayoutComponent
+    HomeLayoutComponent,
+    PuzzlesLayoutComponent,
+    RegisterLayoutComponent,
+    LessonsLayoutComponent
   ],
   imports: [
     BrowserModule,
