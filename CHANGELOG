@@ -1,0 +1,23 @@
+Main Features:
+  Added components:
+    home-layout.component
+    lesson-layout.component
+    login-layout.component
+    play-layout.component
+    puzzles-layout.component
+    register-layout.component
+  
+  Added routing to all components through appropriate buttons
+  
+  Simplified app.component to only have sidebar router outlet and footer 
+  
+  Moved app.component home components to home-layout.component
+  
+  Added flex layout spacing to the main display
+  
+  Adjusted overall layout for more cohesiveness
+  
+  Added chess today buttonon the home layout
+  
+  Removed redundant code in some css files
+  
