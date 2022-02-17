@@ -86,6 +86,10 @@ a:active{
     color: rgb(152,150,149);
 }
 
+a:visited{
+    color: rgb(152,150,149);
+}
+
 div.bottom{
  position: absolute;
   bottom: 0;
