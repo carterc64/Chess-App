@@ -1,5 +1,17 @@
 p{
     display: flex;
-    justify-content: center;
+    
     color: white;
+}
+
+div.container{
+    display: flex;
+    padding-left: 13%;
+    justify-content: center;
+   
+    
+}
+
+div.right-img.col-md-2{
+    
 }

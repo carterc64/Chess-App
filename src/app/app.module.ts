@@ -14,6 +14,7 @@ import { HomeLayoutComponent } from './MainPage/home-layout.component';
 import { PuzzlesLayoutComponent } from './OtherPages/puzzles-layout.component';
 import { RegisterLayoutComponent } from './OtherPages/register-layout.component';
 import { LessonsLayoutComponent } from './OtherPages/lessons-layout.component';
+import { RegularCardComponent } from './OtherPages/regular-card.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { LessonsLayoutComponent } from './OtherPages/lessons-layout.component';
     HomeLayoutComponent,
     PuzzlesLayoutComponent,
     RegisterLayoutComponent,
-    LessonsLayoutComponent
+    LessonsLayoutComponent,
+    RegularCardComponent
   ],
   imports: [
     BrowserModule,

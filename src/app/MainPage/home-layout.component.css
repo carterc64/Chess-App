@@ -4,7 +4,14 @@ body.main-page{
 }
 
 
+div.layout{
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-left: 9%;
+}
 
 p{
     font-family:  Arial, Verdana, sans-serif;
