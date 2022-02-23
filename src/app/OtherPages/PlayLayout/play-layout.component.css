@@ -3,3 +3,31 @@ p{
     justify-content: center;
     color: white;
 }
+
+div.container{
+    display: flex;
+    justify-content: center;
+    padding-top: .8%;
+    
+}
+
+button{
+    padding-top: 1%;
+}
+
+svg{
+    height: 5%;
+    width: 5%;
+    display:inline-block;
+    
+}
+
+span{
+    color: white;
+    font-size: 90%;
+}
+
+.col-md-4{
+   
+    margin-left: 2%;
+}

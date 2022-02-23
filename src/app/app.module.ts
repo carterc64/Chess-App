@@ -15,6 +15,7 @@ import { PuzzlesLayoutComponent } from './OtherPages/puzzles-layout.component';
 import { RegisterLayoutComponent } from './OtherPages/register-layout.component';
 import { LessonsLayoutComponent } from './OtherPages/LessonsLayout/lessons-layout.component';
 import { RegularCardComponent } from './OtherPages/regular-card.component';
+import { PlayOptionsCardComponent } from './OtherPages/PlayLayout/play-options-card.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { RegularCardComponent } from './OtherPages/regular-card.component';
     PuzzlesLayoutComponent,
     RegisterLayoutComponent,
     LessonsLayoutComponent,
-    RegularCardComponent
+    RegularCardComponent,
+    PlayOptionsCardComponent
   ],
   imports: [
     BrowserModule,
