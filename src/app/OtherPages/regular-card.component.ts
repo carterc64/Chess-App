@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input} from "@angular/core";
 
 
 @Component({
@@ -8,5 +8,18 @@ import { Component } from "@angular/core";
 })
 
 export class RegularCardComponent {
-    
+    @Input() img: string;
+    @Input() titleText: string;
+    @Input() bodyText: string;
+    @Input() nameText: string;
+    @Input() bottomText: string;
+
+    constructor(){
+        this.img = "";
+        this.titleText= "Placeholder";
+        this.bodyText = "Placeholder";
+        this.nameText = "Placeholder";
+        this.bottomText = "Placeholder";
+    }
+
 }

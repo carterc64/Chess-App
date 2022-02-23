@@ -9,11 +9,11 @@ import { VerticalCardComponent3 } from './MainPage/vertical.card.component3';
 import { FooterComponent } from './Navigation/footer/footer.component';
 import { SidebarCompnent } from './Navigation/sidebar/sidebar.component';
 import { AppRoutingModule } from './app-routing.module';
-import { PlayLayoutComponent } from './OtherPages/play-layout.component';
+import { PlayLayoutComponent } from './OtherPages/PlayLayout/play-layout.component';
 import { HomeLayoutComponent } from './MainPage/home-layout.component';
 import { PuzzlesLayoutComponent } from './OtherPages/puzzles-layout.component';
 import { RegisterLayoutComponent } from './OtherPages/register-layout.component';
-import { LessonsLayoutComponent } from './OtherPages/lessons-layout.component';
+import { LessonsLayoutComponent } from './OtherPages/LessonsLayout/lessons-layout.component';
 import { RegularCardComponent } from './OtherPages/regular-card.component';
 
 

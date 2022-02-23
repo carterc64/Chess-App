@@ -1,0 +1,106 @@
+<div class="container">
+
+    <div class="col-md-9">
+
+
+        <div class="column1">
+
+
+            <div class="title">
+                <svg class="header-icon" width="40" height="40">
+                    <use xlink:href="./assets/bootstrap-icons.svg#mortarboard-fill"></use>
+                </svg>
+                Lessons
+            </div>
+            <p class="title-guide">
+                Guide
+
+            </p>
+            <p class="line">
+                _______________________________________________________________________________________________________________________
+            </p>
+
+
+
+            <div class="lessons">
+                <p class="title-section">
+                    New to Chess &nbsp;<span class="des">(How to Play)</span>
+                </p>
+
+                <div class="lesson-cards" *ngFor=" let product of products">
+
+                    <div class="cards">
+                        <regular-card img={{product.img}} bodyText={{product.bodyText}} nameText={{product.nameText}}
+                            titleText={{product.titleText}} bottomText={{product.bottomText}}>Loading </regular-card>
+                    </div>
+                    <div class="line">
+                    </div>
+
+                </div>
+
+
+
+                <p class="title-section">
+                    Beginner &nbsp;<span class="des">(Fundamentals)</span>
+                </p>
+
+                <div class="lesson-cards" *ngFor=" let product2 of products2">
+
+                    <div class="cards">
+                        <regular-card img={{product2.img}} bodyText={{product2.bodyText}} nameText={{product2.nameText}}
+                            titleText={{product2.titleText}} bottomText={{product2.bottomText}}>Loading </regular-card>
+                    </div>
+                    <div class="line">
+                    </div>
+
+                </div>
+
+
+                <p class="title-section">
+                    Intermediate &nbsp;<span class="des">(Key Concepts)</span>
+                </p>
+
+                <div class="lesson-cards" *ngFor=" let product3 of products3">
+
+                    <div class="cards">
+                        <regular-card img={{product3.img}} bodyText={{product3.bodyText}} nameText={{product3.nameText}}
+                            titleText={{product3.titleText}} bottomText={{product3.bottomText}}>Loading </regular-card>
+                    </div>
+                    <div class="line">
+                    </div>
+
+                </div>
+
+
+                <p class="title-section">
+                    Advanced &nbsp;<span class="des">(Taking Control)</span>
+                </p>
+
+                <div class="lesson-cards" *ngFor=" let product4 of products4">
+
+                    <div class="cards">
+                        <regular-card img={{product4.img}} bodyText={{product4.bodyText}} nameText={{product4.nameText}}
+                            titleText={{product4.titleText}} bottomText={{product4.bottomText}}>Loading </regular-card>
+                    </div>
+                    <div class="line">
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+        </div>
+
+        <div class="col-md-3">
+
+            <p class="title2">
+                Lessons
+            </p>
+            <img src=" .\assets\right-lessons1.png" class="img-fluid rounded-start" alt="...">
+            <img src=" .\assets\right-lessons2.png" class="img-fluid rounded-start" alt="...">
+    </div>
+
+</div>

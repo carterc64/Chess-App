@@ -1,0 +1,74 @@
+p{
+    display: flex;
+    
+    color: white;
+}
+
+.title{
+    display:inline-block;
+    font-size: 180%;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+.title2{
+    font-size: 180%;
+    font-weight: bold;
+    color: transparent;
+}
+
+
+div.container{
+    display: flex;
+    padding-left: 9%;
+    
+    min-height: 100vh;
+    padding-left: 9%;
+   
+    
+}
+
+.title-guide{
+    padding-left: 55%;
+    line-height: 7%;
+    color: rgb(152,150,149);
+}
+
+.line{
+    line-height: 5%;
+}
+.title-section{
+    font-size: 130%;
+    font-weight: bold;
+    padding-top: 2%;
+    
+}
+
+span.des{
+    font-size: 100%;
+    font-weight: bold;
+    color: rgb(152,150,149);
+}
+
+
+.header-icon{
+    fill: rgb(91,139,176);
+    
+}
+
+.line{
+    color: rgb(152,150,149);
+}
+
+.cards{
+    padding-top: 1.5%;
+}
+
+.column1{
+    display:inline-block
+}
+
+img{
+    padding-bottom: 9%;
+}
