@@ -1,0 +1,107 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color:#312e2b;
+   
+}
+
+div{
+    padding-left: 7%;
+    padding-right: 7%;
+    
+    background-color: rgb(39,37,34);
+}
+
+label{
+    display:flex;
+    justify-content: left;
+    color: rgb(152,150,149);
+    font-size: 82%;
+    
+}
+
+span.password{
+   padding-right: 35%;
+    
+}
+
+button{
+    background: rgb(127,166,80);
+    border: none;
+    font-weight: bold;
+    width: 85%;
+   
+}
+
+p{
+    color: rgb(152,150,149);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+form{
+    padding-top: 4%;
+    margin-left:22%;
+    margin-right: 22%;
+    background-color: rgb(39,37,34);
+}
+
+.text-center{
+    padding-top: 1%;
+}
+
+button.btn.btn-lg.btn-primary:hover{
+    background-color: rgb(130, 184, 65);
+    box-shadow: 0 5px 15px rgb(130, 184, 65);
+
+}
+
+input.form-control{
+    background: rgb(56,54,52);
+    border: none;
+    color: rgb(152,150,149);
+}
+
+input.form-control:hover{
+    color: rgb(152,150,149);
+
+}
+
+input.form-control:focus{
+    box-shadow: none;
+
+}
+
+a.facebook{
+    color:rgb(29,161,242);
+
+}
+
+a.google{
+    color:red;
+
+}
+
+a.apple{
+    color: white;
+}
+
+.end{
+   
+    padding-bottom: 7%;
+    padding-top: 7%;
+    background-color: rgb(31,30,27);;
+
+}
+
+.new{
+    color:rgb(29,161,242);
+}
+
+.line{
+    padding-top: 100%
+}

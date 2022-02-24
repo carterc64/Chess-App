@@ -12,12 +12,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { PlayLayoutComponent } from './OtherPages/PlayLayout/play-layout.component';
 import { HomeLayoutComponent } from './MainPage/home-layout.component';
 import { PuzzlesLayoutComponent } from './OtherPages/PuzzlesLayout/puzzles-layout.component';
-import { RegisterLayoutComponent } from './OtherPages/register-layout.component';
+import { RegisterLayoutComponent } from './OtherPages/RegisterLayout/register-layout.component';
 import { LessonsLayoutComponent } from './OtherPages/LessonsLayout/lessons-layout.component';
 import { RegularCardComponent } from './OtherPages/RegularCardComponent/regular-card.component';
 import { PlayOptionsCardComponent } from './OtherPages/PlayLayout/play-options-card.component';
 import { PuzzlesOptionsComponent } from './OtherPages/PuzzlesLayout/puzzles-options.component';
 import { PuzzlesNavbarComponent } from './OtherPages/LessonsLayout/puzzles-navbar.component';
+import { LoginLayoutComponent } from './OtherPages/LoginComponent/login-layout.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { PuzzlesNavbarComponent } from './OtherPages/LessonsLayout/puzzles-navba
     RegularCardComponent,
     PlayOptionsCardComponent,
     PuzzlesOptionsComponent,
-    PuzzlesNavbarComponent
+    PuzzlesNavbarComponent,
+    LoginLayoutComponent
   ],
   imports: [
     BrowserModule,
