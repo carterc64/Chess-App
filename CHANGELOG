@@ -1,23 +1,30 @@
-Main Features:
-  Added components:
-    home-layout.component
-    lesson-layout.component
-    login-layout.component
-    play-layout.component
-    puzzles-layout.component
-    register-layout.component
+Main features:
+
+  Implmented 4 of the 5 routed layouts
+  Put all page layouts into folders
   
-  Added routing to all components through appropriate buttons
-  
-  Simplified app.component to only have sidebar router outlet and footer 
-  
-  Moved app.component home components to home-layout.component
-  
-  Added flex layout spacing to the main display
-  
-  Adjusted overall layout for more cohesiveness
-  
-  Added chess today buttonon the home layout
-  
-  Removed redundant code in some css files
-  
+  Lessons Layout:
+      Implemented regular card component with 5 attributes
+        img
+        titleText
+        bodyText
+        nameText
+        bottomText
+      
+      Implemented puzzles-navbar
+      
+      Styled all into a flex layout in less-layout.component
+      
+  LoginComponent
+    Implemented a login component into login-layout.component
+    
+  PLayLayout
+    Implmemented a play-options-card.component
+    
+    Styled all into a flex layout in play-layout.component
+    
+  PuzzlesLayout
+    Implemented a play-options-card.component
+    
+    Styled all into a flex layout in puzzles-layout.component
+     
