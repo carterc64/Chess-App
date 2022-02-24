@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { RegularCardModel } from "../regular-card.model";
+import { RegularCardModel } from "../RegularCardComponent/regular-card.model";
 import { new_to_chess_list } from "./new-to-chess-list";
 import { beginner_chess_list } from "./beginner-chess-list";
 import { intermediate_chess_list } from "./intermediate-chess-list";

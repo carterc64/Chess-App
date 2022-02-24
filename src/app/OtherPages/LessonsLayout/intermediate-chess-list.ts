@@ -5,40 +5,40 @@ export const intermediate_chess_list = [
         titleText: "Make the Most of Your Pieces",
         bodyText: "Explore the strengths of each piece.",
         nameText: "Chess.com Team",
-        bottomText: "8 Lessons Beginner"
+        bottomText: "7 Lessons Intermediate"
         
     },
 
     {
         img: "https://images.chesscomfiles.com/uploads/v1/lesson_course/8ba0f4de-6e57-11e8-b3b5-4bc0b74cd42e.26fa16e1.320x180o.b4244f444c1b.png", 
-        titleText: "How to Move the Pieces",
-        bodyText: "Get to know the chess pieces and how to set up the board.",
+        titleText: "Understanding Endgames",
+        bodyText: "Know what to do when most pieces are off the board.",
         nameText: "Chess.com Team",
         bottomText: "7 Lessons Intermediate"
     },
 
     {
         img: "https://images.chesscomfiles.com/uploads/v1/lesson_course/8ba0f4de-6e57-11e8-b3b5-4bc0b74cd42e.26fa16e1.320x180o.b4244f444c1b.png", 
-        titleText: "How to Move the Pieces",
-        bodyText: "Get to know the chess pieces and how to set up the board.",
+        titleText: "Winning with Tactics",
+        bodyText: "Surprise your opponents with powerful winning moves.",
         nameText: "Chess.com Team",
-        bottomText: "8 Lessons Beginner"
+        bottomText: "10 Lessons Intermediate, Beginner"
     },
 
     {
         img: "https://images.chesscomfiles.com/uploads/v1/lesson_course/8ba0f4de-6e57-11e8-b3b5-4bc0b74cd42e.26fa16e1.320x180o.b4244f444c1b.png", 
-        titleText: "How to Move the Pieces",
-        bodyText: "Get to know the chess pieces and how to set up the board.",
+        titleText: "Forcing Moves",
+        bodyText: "Control the game by calculating a few moves ahead.",
         nameText: "Chess.com Team",
-        bottomText: "8 Lessons Beginner"
+        bottomText: "5 Lessons Intermediate"
     },
 
     {
         img: "https://images.chesscomfiles.com/uploads/v1/lesson_course/8ba0f4de-6e57-11e8-b3b5-4bc0b74cd42e.26fa16e1.320x180o.b4244f444c1b.png", 
-        titleText: "How to Move the Pieces",
-        bodyText: "Get to know the chess pieces and how to set up the board.",
+        titleText: "Reading the Board",
+        bodyText: "See the whole board so you can decide on the best plan.",
         nameText: "Chess.com Team",
-        bottomText: "8 Lessons Beginner"
+        bottomText: "7 Lessons Intermediate"
     },
     
 ]

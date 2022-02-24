@@ -1,0 +1,75 @@
+.card{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(39,37,34);
+  
+    
+   
+}
+
+p{
+    color: white;
+}
+
+h5{
+    color:white;
+}
+
+
+button{
+    margin-top: 3%;
+}
+
+button.btn2.btn-primary.btn-lg{
+    align-items: center;
+    
+    
+    border: none;
+    width: 425px;
+    max-height: 80px;
+    padding-bottom: 40px;
+    background: rgb(56,54,52);
+    font-weight: bold;
+    color: rgb(152,150,149);
+    background: rgb(31,30,27);
+
+}
+
+button.btn2.btn-primary.btn-lg:hover{
+    background: rgb(15, 15, 13);
+}
+
+p.button-text{
+    padding-top: 10px;
+    line-height: 10px;
+    text-align: left;
+    font-size: 18px;
+    padding-left: 60px;
+
+}
+
+p.button-inner{
+    font-size: 12px;
+    text-align: left;
+    font-weight: none;
+    padding-left: 53px;
+    color: rgb(152,150,149)
+
+}
+
+svg.joystick{
+    float: left;
+    height: 65px;
+    width: 50px;
+
+}
+
+.card-title{
+    font-size: 190%;
+    font-weight: bold;
+}
+
+.line{
+    padding-top: 90%;
+}
