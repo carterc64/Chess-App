@@ -25,3 +25,8 @@ div.footer{
     display: flex;
     justify-content: center;
 }
+
+user-info{
+    text-align: center;
+    color: white;
+}

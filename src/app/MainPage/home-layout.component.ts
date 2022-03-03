@@ -19,12 +19,12 @@ export class HomeLayoutComponent{
   constructor() {
     /*First two*/
     for (var product of mock_news_list1) {
-      console.log(product);
+      
       this.products.push(product);
     }
     /*last two*/
     for (var product2 of mock_news_list2) {
-      console.log(product2);
+      
       this.products2.push(product2);
     }
   }

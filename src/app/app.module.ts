@@ -19,7 +19,8 @@ import { PlayOptionsCardComponent } from './OtherPages/PlayLayout/play-options-c
 import { PuzzlesOptionsComponent } from './OtherPages/PuzzlesLayout/puzzles-options.component';
 import { PuzzlesNavbarComponent } from './OtherPages/LessonsLayout/puzzles-navbar.component';
 import { LoginLayoutComponent } from './OtherPages/LoginComponent/login-layout.component';
-
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './UserInfo/user-info.component';
 
 @NgModule({
   declarations: [
@@ -39,11 +40,13 @@ import { LoginLayoutComponent } from './OtherPages/LoginComponent/login-layout.c
     PlayOptionsCardComponent,
     PuzzlesOptionsComponent,
     PuzzlesNavbarComponent,
-    LoginLayoutComponent
+    LoginLayoutComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
