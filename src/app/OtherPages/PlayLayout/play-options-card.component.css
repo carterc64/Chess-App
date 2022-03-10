@@ -4,7 +4,8 @@
     text-align: center;
     background-color: rgb(39,37,34);
     height: 100%;
-    max-width: 100%;
+    max-width: 125%;
+    
     
    
 }
@@ -16,16 +17,14 @@ p{
 h5{
     color:white;
 }
-
-
 button{
     margin-top: 3%;
 }
 
 button.btn2.btn-primary.btn-lg{
     align-items: center;
-    max-width: 100%;
     
+    max-width: 100%;
     border: none;
     width: 425px;
     max-height: 80px;
@@ -73,4 +72,5 @@ svg.joystick{
 
 .line{
     
+   width: 425px; 
 }
