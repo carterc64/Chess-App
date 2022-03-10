@@ -3,7 +3,8 @@
     justify-content: center;
     text-align: center;
     background-color: rgb(39,37,34);
-  
+    height: 100%;
+    max-width: 100%;
     
    
 }
@@ -23,7 +24,7 @@ button{
 
 button.btn2.btn-primary.btn-lg{
     align-items: center;
-    
+    max-width: 100%;
     
     border: none;
     width: 425px;
@@ -71,5 +72,5 @@ svg.joystick{
 }
 
 .line{
-    padding-top: 81%;
+    
 }

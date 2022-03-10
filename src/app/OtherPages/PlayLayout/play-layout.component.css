@@ -8,6 +8,9 @@ div.container{
     display: flex;
     justify-content: center;
     padding-top: .8%;
+    padding-left: 9%;
+    
+    
     
 }
 
@@ -28,6 +31,12 @@ span{
 }
 
 .col-md-4{
-   
+    max-height: 100%;
     margin-left: 2%;
+}
+
+img{
+    display: flex;
+    max-height: 100%;
+    max-width: 100%;
 }
