@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
-import { mock_news_list1 } from './MainPage/DataboundComponent/mock-news-list1';
-import { NewsItemModel } from './MainPage/DataboundComponent/news-item.model';
-import { mock_news_list2 } from './MainPage/DataboundComponent/mock-news-list2';
+
 
 
 
