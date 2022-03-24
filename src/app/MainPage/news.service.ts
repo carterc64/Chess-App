@@ -1,4 +1,4 @@
-import { HttpClient } from "@angular/common/http";
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 import { Injectable } from "@angular/core";
 import { NewsItemModel } from "./DataboundComponent/news-item.model";
 
@@ -8,21 +8,22 @@ import { NewsItemModel } from "./DataboundComponent/news-item.model";
 })
 export class NewsService{
 
-    private baseUrl: string = 'https://chess-app-8b9f7-default-rtdb.firebaseio.com/';
-    private newsEndPoint1: string = 'newsList1.json';
-    private newsEndPoint2: string = 'newsList2.json'
+   
 
-
-    constructor(private http:HttpClient){
+    constructor(private db:AngularFireDatabase){
         
     }
 
     public getNews1() {
-        return this.http.get<NewsItemModel []>(this.baseUrl + this.newsEndPoint1);
+        return this.db.list<NewsItemModel>("newsList1").valueChanges();
     }
 
     public getNews2() {
-        return this.http.get<NewsItemModel []>(this.baseUrl + this.newsEndPoint2);
+        return this.db.list<NewsItemModel>("newsList2").valueChanges();
+    }
+
+    public getNews (index: number){
+        return this.db.list("newsList1", ref=> ref.orderByChild("bodyText")).valueChanges();
     }
 
 
