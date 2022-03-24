@@ -2,6 +2,8 @@ Main features:
 
   Configured the angulat fire library
   
+  Implemented angularFireBase into news.service.ts
+  
   Modified the newsList1 http service to angularFireDatabase
   
   Modified the newsList2 http service to angularFireDatabase
