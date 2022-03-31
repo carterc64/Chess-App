@@ -1,9 +1,13 @@
 Main features:
 
-  Implmented servicing of database data
+  Configured the angulat fire library
   
-  Inputted mock-news-list1 and mock-news-list2 data into database
-  Added news.service to fetch the data from the database
-  Updated home-layout.component.ts to get the databound component data from the database instead of the mock news lists
-  Removed mock-news-lists data from the files and removed imports of them from other code
+  Implemented angularFireBase into news.service.ts
   
+  Modified the newsList1 http service to angularFireDatabase
+  
+  Modified the newsList2 http service to angularFireDatabase
+  
+  Fetched the data with AngularFireDatabase for both lists 
+  
+  Redeployed app
