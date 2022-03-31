@@ -1,0 +1,64 @@
+
+<div class="container">
+    <div class= "row">
+        <div class="col-2">
+
+        </div>
+        <div class="col-9">
+
+
+            <form #postFrom="ngForm" (ngSubmit)="replaceNews(postFrom.value)">
+
+                <div class="input-group">
+                    <span class = "input-group-text">
+                        reset:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="reset" >
+                </div>
+
+                <div class="input-group">
+                    <span class = "input-group-text">
+                        listNumber:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="number" required>
+                </div>
+
+                <div class="input-group">
+                    <span class = "input-group-text">
+                        bodyText:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="bodyText" >
+                </div>
+
+                <div class="input-group">
+                    <span class = "input-group-text">
+                        img:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="img" > 
+                </div>
+
+                <div class="input-group">
+                    <span class = "input-group-text">
+                        nameText:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="nameText" >
+                </div>
+
+                <div class="input-group">
+                    <span class = "input-group-text">
+                        navLink:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="navLink">
+                </div>
+
+
+
+                
+
+
+
+                <button class="btn" type="submit" [disabled]="!postFrom.valid">Replace Card</button>
+            </form>
+        </div>
+    </div>
+</div>

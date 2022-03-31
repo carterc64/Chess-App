@@ -7,6 +7,7 @@ import { PuzzlesLayoutComponent } from './OtherPages/PuzzlesLayout/puzzles-layou
 import { RegisterLayoutComponent } from './OtherPages/RegisterLayout/register-layout.component';
 import { LoginLayoutComponent } from './OtherPages/LoginComponent/login-layout.component';
 import { LessonsLayoutComponent } from './OtherPages/LessonsLayout/lessons-layout.component';
+import { AddNewsComponent } from './MainPage/add-news/add-news.component';
 
 
 const routes: Routes = [
@@ -16,7 +17,8 @@ const routes: Routes = [
   {path: 'puzzles', component : PuzzlesLayoutComponent},
   {path: 'register', component : RegisterLayoutComponent},
   {path: 'login', component : LoginLayoutComponent},
-  {path: 'lessons', component: LessonsLayoutComponent}
+  {path: 'lessons', component: LessonsLayoutComponent},
+  {path: 'admin', component : AddNewsComponent }
 ];
 
 
