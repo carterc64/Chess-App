@@ -8,6 +8,7 @@ import { RegisterLayoutComponent } from './OtherPages/RegisterLayout/register-la
 import { LoginLayoutComponent } from './OtherPages/LoginComponent/login-layout.component';
 import { LessonsLayoutComponent } from './OtherPages/LessonsLayout/lessons-layout.component';
 import { AddNewsComponent } from './MainPage/add-news/add-news.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 
 const routes: Routes = [
@@ -18,7 +19,8 @@ const routes: Routes = [
   {path: 'register', component : RegisterLayoutComponent},
   {path: 'login', component : LoginLayoutComponent},
   {path: 'lessons', component: LessonsLayoutComponent},
-  {path: 'admin', component : AddNewsComponent }
+  {path: 'admin', component : AddNewsComponent },
+  {path: 'auth', component : AuthenticationComponent}
 ];
 
 

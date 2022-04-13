@@ -1,7 +1,7 @@
 import  { Component, OnInit } from "@angular/core";
 
 import { NewsItemModel } from "./DataboundComponent/news-item.model";
-import { NewsService } from "./news.service";
+import { NewsService } from "./add-news/news.service";
 
 @Component({
     selector : 'home-layout',

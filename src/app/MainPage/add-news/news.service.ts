@@ -1,6 +1,6 @@
 import { AngularFireDatabase } from '@angular/fire/compat/database';
 import { Injectable } from "@angular/core";
-import { NewsItemModel } from "./DataboundComponent/news-item.model";
+import { NewsItemModel } from "../DataboundComponent/news-item.model";
 import { elementAt } from 'rxjs';
 
 

@@ -28,6 +28,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddNewsComponent } from './MainPage/add-news/add-news.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { FormsModule } from '@angular/forms';
     PuzzlesNavbarComponent,
     LoginLayoutComponent,
     UserInfoComponent,
-    AddNewsComponent
+    AddNewsComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,
