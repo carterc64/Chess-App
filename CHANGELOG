@@ -8,5 +8,6 @@ Main features:
   
   Implemented the authentication service to add authenitcated accounts to the database
   
+  Added console logs to show what was submitted and any errors that occured
   
   
