@@ -1,22 +1,12 @@
 Main features:
 
-  Added the add news component
+  Changed the rules on the realtime database
+   
+  Added authentication component
   
-  Routed it to the /admin tag
+  Added authentication service
   
-  Added the input form finctionality
+  Implemented the authentication service to add authenitcated accounts to the database
   
-  Updated newItemModel to have number and reset
   
-  Added replaceNews() method to add-news.component.ts
-  
-  Updated news.service to implement replaceNews()
-  
-  Implemented replace news to add entries to the database
-  
-Bonus:
-    My cards that I added usually only has 4 at all times. So I implemented a reset feature
-    that allows an option to reset either newsList1 or newsList2 and add a card in the process.
-    This way you could update all 4 each day with new news and it not be too much of a hassle. 
-    
   
